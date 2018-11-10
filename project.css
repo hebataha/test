@@ -1,0 +1,663 @@
+@charset "ISO-8859-1";
+
+.body{
+	background-color: #2dcc70;
+	width: 1349.4px;
+	margin: auto auto;
+}
+
+.container_body{
+	width: 1200px;
+	margin: auto;
+}
+
+.container{
+	width: 1170px;
+	margin: auto;
+}
+
+.clearfix{
+	clear: both;
+}
+
+/* start header */
+.header .slider{
+	background-image: url("net.jpg");
+	background-size: cover; /* css3 */
+	height: 602px;
+}
+
+.header .slider .intro{
+	/* background-image: url("C:/Users/OSAMA/Desktop/net.jpg");
+	height: 600px;*/
+	text-align: center;
+	color: #fff;
+	padding-top: 250px;
+}
+
+.header .slider .intro h2{
+	margin: 0 auto;
+	font-size: 50px;
+	width: 650px;
+	border-top: 6px solid #fff;
+	border-bottom: 6px solid #fff;
+	padding: 5px 0;
+}
+
+.header .slider .intro button{
+	color: #fff;
+	background: none;
+	margin-top: 40px;
+	font-size: 20px;
+	border: 4px solid #fff;
+	font-weight: bold;
+	padding: 10px 20px;
+	border-radius: 12px;
+}
+
+.header .navbar{
+	background-color: #252f31;
+	color: #fff;
+	overflow: hidden;
+	/*text-transform: uppercase;*/
+}
+
+.header .navbar h2{
+	float: left;
+	text-transform: uppercase;
+}
+
+.header .navbar h2 span{
+	color: #2ecc71;
+}
+
+.header .navbar ul{
+	list-style: none;
+	padding-left: 0;
+	overflow: hidden;
+	float: right;
+}
+
+.header .navbar ul li{
+	float: left;
+	padding: 10px;
+}
+
+.header .navbar ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.header .navbar ul li a:hover{
+	color: #30b576;
+}
+
+
+.header .navbar ul li a:active{
+	color: orange;
+}
+
+/* end header */
+
+/* start featurs*/
+
+.features{
+	background-color: #fff;
+	overflow: hidden;
+	padding-top: 50px;
+	padding-bottom: 65px;
+}
+
+.features .feat{
+	float: left;
+	width: 33.3333%;
+	height: 150px;
+}
+
+.features .feat h2{
+	text-transform: uppercase;
+	color: #2dcc70;
+}
+
+.features .feat p{
+	line-height: 1.7;
+	color: #888;
+	text-align: justify;
+	padding: 0 20px 0 0;
+}
+/* end featurs*/
+
+/* start About me*/
+.about-me{
+	background-color: #f2f2f2;
+	overflow: hidden;
+	height: 468px;
+}
+
+.about-me .image{
+	float: left;
+	width: 40%;
+}
+
+.about-me .image img{
+	width: 100%;
+	border-radius: 12px;	
+}
+
+.about-me .info{
+	float: left;
+	width: 60%;
+}
+
+.about-me .info h2{
+	margin: 35px 0 20px 40px;
+	color: #2dcc70;
+}
+
+.about-me .info > p{
+	margin: 0 0 10px 40px;
+	text-align: justify;
+}
+
+.about-me .info > p:last-of-type{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.about-me .info  p{
+	line-height: 1.6;
+	color: #666;
+}
+
+.about-me .info .hobbies{
+	overflow: hidden;
+	margin: 10px 0 0 40px;
+}
+
+.about-me .info .hobbies .content{
+	float: left;
+	width: 50%;
+	overflow: hidden;
+}
+
+.about-me .info .hobbies .content .icon{
+	float: left;
+	width: 12%;
+	margin-right: 5%;
+}
+
+.about-me .info .hobbies .content .icon img{
+	max-width: 100%;
+	margin: 10px 10px 0 0;
+}
+
+.about-me .info .hobbies .content .text{
+	float: left;
+	width: 83%;
+}
+
+.about-me .info .hobbies .content .text p{
+	margin-top: 0;
+}
+
+.about-me .info .hobbies .content h3{
+	margin-bottom: 2px;
+	color: #0078f0;
+}
+
+.about-me .info .hobbies .content p{
+	width: 90%;	
+}
+
+
+/* end About me*/
+
+/* start my-skills */
+.my-skills{
+	background-color: #fff;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+
+.my-skills .skills,
+.my-skills .progress{
+	width: 50%;
+	float: left;
+}
+
+.my-skills .skills h2{
+	margin: 35px 0 20px 40px;
+	color: #2dcc70;
+	text-transform: uppercase;
+}
+
+.my-skills .skills p{
+	margin: 0 0 10px 40px;
+	line-height: 1.6;
+	color: #666;
+	text-align: justify;
+}
+
+.my-skills .skills p:last-of-type{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.my-skills .skills button{
+	background: none;
+	border: 3px solid #2dcc70;
+	color: #2dcc70;
+	margin: 20px 0 10px 40px;
+	padding: 15px 35px;
+	font-weight: bold;
+	border-radius: 12px;
+}
+
+.my-skills .progress .prog{
+	margin-left: 50px;
+}
+
+.my-skills .progress .h3_spec{
+	color: #777;
+	text-transform: uppercase;
+	margin-top: 55px;
+}
+
+.my-skills .progress .prog h3{
+	color: #777;
+	text-transform: uppercase;
+}
+
+.my-skills .progress .prog div{
+	background-color: #f2f2f2;
+	height: 30px;	
+}
+
+.my-skills .progress .prog div span{
+	display: block;
+	background-color: #2dcc70;
+	height: 30px;
+	line-height: 30px;
+	text-align: right;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+/* end my-skills */
+
+/* start resume */
+
+.resume{
+	background-color: #f2f2f2;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+.resume h2{
+	color: #2dcc70;
+	text-transform: uppercase;
+	margin-top: 5px;
+	margin-bottom:0;
+}
+
+.resume p{
+	line-height: 1.6;
+	color: #666;
+	padding: 0 120px;
+	margin-top: 5px;
+	margin-bottom:0;
+}
+
+.resume button{
+	background: none;
+	border: 2px solid #2dcc70;
+	color: #2dcc70;
+	margin: 10px 0 5px 0;
+	padding: 10px 20px;
+	font-weight: bold;
+	border-radius: 12px;
+}
+
+
+/* end resume */
+
+
+/* start my-Education */
+.my-education{
+	background-color: #fff;
+	padding: 30px 0;
+	overflow: hidden;
+}
+
+.main_hr{
+	border: 0;
+	border-radius: 30px;
+	background-color : #f2f2f2;
+	height: 6px;
+}
+
+.my-education .main{
+	width: 50%;
+	margin-right: 5%;
+	float: left;
+}
+
+.my-education .main h2{
+	margin: 35px 0 20px 40px;
+	color: #2dcc70;
+	text-transform: uppercase;
+}
+
+.my-education .main p{
+	margin: 0 0 10px 40px;
+	line-height: 1.6;
+	color: #666;
+	text-align: justify;
+}
+
+.my-education .main p:last-of-type{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.my-education .exp{
+	width: 45%;
+	float: left;
+}
+
+.my-education .exp .certificate1 h3{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	color: #2dcc70;
+}
+
+.my-education .exp .certificate2 h3,
+.my-education .exp .certificate3 h3{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	color: #2dcc70;
+}
+
+.my-education .exp span{
+	display: block;
+	margin-bottom: 10px;
+}
+
+.my-education .exp span:first-of-type{
+	color: #666;
+}
+
+.my-education .exp span:last-of-type{
+	background-color: #2dcc70;
+	color: #fff;
+	border-radius: 3px;
+	padding: 6px;
+	display: inline-block;
+	margin: 0;
+}
+
+.my-education .exp hr{
+	margin: 20px 0;
+	background-color: #2dcc70;  /* #c4c4c4 */
+	height: 1px;
+	border: 0;
+}
+
+.my-education .exp p{
+	line-height: 1.7;
+	color: #666;
+	text-align: justify;
+}
+
+
+.my-education .exp .certificate1,
+.my-education .exp .certificate2,
+.my-education .exp .certificate3{
+	border: 3px solid #2dcc70;
+	border-radius: 12px;
+	padding: 12px;
+	margin-bottom: 6px;
+}
+
+.my-education .exp h3,
+.my-education .exp span:first-of-type{
+	text-align: center;
+}
+
+.my-education .exp span:last-of-type{
+	margin: 0 0 0 210px;
+}
+
+
+/* end my-Education */
+
+/* start testimonials */
+
+.testimonials{
+	background-color: #f2f2f2;
+	text-align: center;
+	padding: 20px 0 10px 0;
+}
+
+.testimonials q{
+	line-height: 1.8;
+	color: #888;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+	font-family: times new roman;
+}
+
+.testimonials h3{
+	color: #2dcc70;
+	font-size: 50px;
+	font-family: times new roman;
+	margin: 5px 0 0 0;
+	
+}
+
+.testimonials ul{
+	padding-left: 0;
+	margin: 10px 0 0 0;
+}
+
+.testimonials ul li{
+	width: 10px;
+	height: 10px;
+	border: 2px solid #2dcc70;
+	border-radius: 6px;
+	display: inline-block;
+	cursor: pointer;
+	margin: 10px 0;
+}
+
+.testimonials .active,
+.testimonials ul li:hover{
+	background-color: #2dcc70;
+}
+
+/* end testimonials */
+
+/* start portfolio */
+
+.portfolio{
+	background-color: #fff;
+	padding: 20px 0 20px 0;
+	text-align: center;
+}
+
+.portfolio h2{
+	color: #2dcc70;
+	font-size: 60px;
+	margin: 0 0 0 0;
+}
+
+.portfolio p{
+	line-height: 1.7;
+	color: #777 ;
+	margin-bottom: 12px;
+	width: 850px;
+	margin: 15px auto;
+}
+
+.portfolio .our-work{
+	overflow: hidden;
+	width: 600px;
+	margin: auto;
+	height: auto;
+}
+
+.portfolio .our-work > div{
+	float: left;
+	width: 20%;
+	margin-bottom: 10px;
+} 
+
+.portfolio .our-work > div img{
+	width: 92%;
+	margin: 10px;
+	padding: 3px;
+	background-color: #fff;
+	border: 1px solid #fff;
+}
+/* end portfolio */
+
+/* start contact me */
+
+.contact {
+	background-color: #252f31;
+	overflow: hidden;
+	padding: 20px 0 0 12px;
+	height: 400px;
+}
+
+.contact .info{
+	width: 50%;
+	margin-right: 5%;
+	float: left;
+}
+
+.contact h2{
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 0;
+}
+
+.contact p{
+	line-height: 1.8;
+	color:#dadada;
+	font-size: 16px;
+	width: 580px;
+	text-align: justify;
+	margin-top: 0;
+}
+
+.contact .info .my_address{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	width: 85px;
+}
+
+.contact .info .address{
+	text-transform: uppercase;
+	margin-left: 73px;
+	width: 155px;
+}
+.contact .info .my_e-mail,
+.contact .info .my_phone{
+	display: inline;
+}
+
+.contact .info .my_e-mail .e-mail,
+.contact .info .my_phone .phone{
+	text-transform: uppercase;
+	color: #fff;
+}
+
+
+.contact .form{
+	width: 45%;
+	float: left;
+}
+
+.contact .form label{
+	display: block;
+	color: #f2f2f2;
+	margin: 12px 0;
+}
+
+.contact .form [type="text"]{
+	color: #6a6e71;
+	background-color: #f2f2f2;
+	padding: 12px;
+	border: 0;
+	width: 490px;
+	border-radius: 12px;
+}
+
+.contact .form textarea{
+	color: #6a6e71;
+	background-color: #f2f2f2;
+	padding: 12px;
+	border: 0;
+	width: 490px;
+	height: 75px;
+	border-radius: 12px;
+}
+
+
+.contact .form [type="submit"]{
+	border: 0;
+	background-color: #14171b;
+	color: #fff;
+	padding: 12px 30px;
+	margin-top: 20px;
+	font-weight: bold;
+	border-radius: 12px;
+	margin-left: 373px;
+}
+
+/* end contact me */
+
+/* start footer */
+
+.footer{
+	background-color: #191e22;
+	color: #6a6e71;
+	padding: 5px 0;
+	text-align: center;
+	overflow: hidden;
+}
+
+/*
+.footer span{
+	float: left;
+} */
+
+.footer .container .ul_1{
+	list-style: none;
+	padding-left: 0;
+	margin: 5px 0 2px 0;
+	/* float: right */
+}
+
+.footer .container .ul_1  .li_1{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+}
+
+.footer .container .ul_1  .li_1 img{
+	width: 25px;
+	height: 25px;
+}
+
+
+/* end footer */
